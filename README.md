@@ -3,12 +3,12 @@
 This cookbook will create a profile.d directory if one does not already exist.
 It will enable profile.d scripts for OSX in bash/zsh startup files.
 
-ATTRIBUTES
+#ATTRIBUTES
 
 * default['profile_d']['root_path']
   - location of profile.d directory.
   - only created if missing
-  - if existing owner,group are not modified
+  - if pre-existing then owner and group are not modified
   - default value is '/etc/profile.d'
 
 * default['profile_d']['owner']
