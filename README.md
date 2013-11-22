@@ -1,7 +1,7 @@
 # Sendgrid profile_d cookbook
 
-This cookbook will create a profile.d directory if one does not already exist.
-It will enable profile.d scripts for OSX in bash/zsh startup files.
+* This cookbook will create a profile.d directory if one does not already exist.
+* It will bootstrap profile.d scripts for OSX in bash/zsh startup files.
 
 # Attributes
 
